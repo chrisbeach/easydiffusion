@@ -42,7 +42,7 @@ def set_vram_optimizations(context: Context):
     from easydiffusion import app
 
     config = app.getConfig()
-    vram_usage_level = config.get("vram_usage_level", "balanced")
+    vram_usage_level = config.get("vram_usage_level", "high")
 
     if vram_usage_level != context.vram_usage_level:
         context.vram_usage_level = vram_usage_level

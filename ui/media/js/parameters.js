@@ -160,7 +160,7 @@ var PARAMETERS = [
             "<b>High:</b> fastest, maximum GPU memory usage</br>" +
             "<b>Low:</b> slowest, recommended for GPUs with 3 to 4 GB memory",
         icon: "fa-forward",
-        default: "balanced",
+        default: "high",
         options: [
             { value: "balanced", label: "Balanced" },
             { value: "high", label: "High" },
