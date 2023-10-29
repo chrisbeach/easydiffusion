@@ -162,8 +162,8 @@ var PARAMETERS = [
         icon: "fa-forward",
         default: "high",
         options: [
-            { value: "balanced", label: "Balanced" },
             { value: "high", label: "High" },
+            { value: "balanced", label: "Balanced" },
             { value: "low", label: "Low" },
         ],
     },
