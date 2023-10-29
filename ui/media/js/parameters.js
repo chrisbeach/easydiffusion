@@ -130,7 +130,7 @@ var PARAMETERS = [
         label: "Process newest jobs first",
         note: "reverse the normal processing order",
         icon: "fa-arrow-down-short-wide",
-        default: false,
+        default: true,
     },
     {
         id: "extract_lora_from_prompt",
@@ -203,7 +203,7 @@ var PARAMETERS = [
         note:
             "Actions that might lead to data loss must either be clicked with the shift key pressed, or confirmed in an 'Are you sure?' dialog",
         icon: "fa-check-double",
-        default: true,
+        default: false,
     },
     {
         id: "profileName",
