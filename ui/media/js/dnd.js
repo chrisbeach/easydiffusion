@@ -282,7 +282,7 @@ const TASK_MAPPING = {
         setUI: (use_vae_model) => {
             const oldVal = vaeModelField.value
             use_vae_model =
-                use_vae_model === undefined || use_vae_model === null || use_vae_model === "None" ? "" : use_vae_model
+                use_vae_model === undefined || use_vae_model === null || use_vae_model === "None" ? "vae-ft-mse-840000-ema-pruned" : use_vae_model
 
             if (use_vae_model !== "") {
                 use_vae_model = getModelPath(use_vae_model, [".vae.pt", ".ckpt"])
